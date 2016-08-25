@@ -1,2 +1,3 @@
-# react-tutorial
-A place to toy around with react tutorials. Based on https://github.com/learncodeacademy/react-js-tutorials
+# react-tutorial-routing
+Following along with a ReactJS tutorial
+https://github.com/learncodeacademy/react-js-tutorials
