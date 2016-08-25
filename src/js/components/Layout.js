@@ -1,10 +1,10 @@
 import React from "react";
 
-import MyFooter from "./MyFooter";
+import Footer from "./Footer";
 import FilterableProductTable from "./FilterableProductTable";
-import MyHeader from "./MyHeader";
+import Header from "./Header";
 
-export default class MyLayout extends React.Component {
+export default class Layout extends React.Component {
 
   constructor() {
     super();
@@ -20,9 +20,9 @@ export default class MyLayout extends React.Component {
   render() {
     return (
       <div>
-        <MyHeader changeTitle={this.changeTitle.bind(this)} title={this.state.title}/>
+        <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title}/>
         <FilterableProductTable products={this.props.products}/>
-        <MyFooter />
+        <Footer />
       </div>
     )
   }

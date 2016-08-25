@@ -1,8 +1,8 @@
 import React from "react";
 
-import MyTitle from "./MyHeader/MyTitle";
+import Title from "./Header/Title";
 
-export default class MyHeader extends React.Component {
+export default class Header extends React.Component {
 
   handleChange(e) {
     const title = e.target.value;
@@ -12,7 +12,7 @@ export default class MyHeader extends React.Component {
   render() {
     return (
       <div>
-        <MyTitle title={this.props.title}/>
+        <Title title={this.props.title}/>
         <input value={this.props.title} onChange={this.handleChange.bind(this)}/>
       </div>
     )

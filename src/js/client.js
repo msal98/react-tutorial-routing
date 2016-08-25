@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import MyLayout from "./components/MyLayout";
+import Layout from "./components/Layout";
 
 var PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
@@ -13,4 +12,4 @@ var PRODUCTS = [
 ];
 
 const app = document.getElementById('app');
-ReactDOM.render(<MyLayout products={PRODUCTS} />, app);
+ReactDOM.render(<Layout products={PRODUCTS} />, app);
